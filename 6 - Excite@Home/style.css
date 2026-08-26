@@ -1,0 +1,40 @@
+body {
+    background-image: url("./images/background.gif");
+    background-size: 105% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    font-size: small;
+}
+
+.footer {
+    color: #999793;
+    font-size: smaller;
+    margin-top: 150px;
+}
+
+.content__highlight, .footer__highlight {
+    text-decoration: underline;
+    color: #ED0005;
+}
+.content {
+    margin-bottom: 100px;
+}
+
+.content__line {
+    margin: 0;
+}
+
+.content__line--first {
+    margin-bottom: 16px;
+}
+
+
