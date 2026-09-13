@@ -1,0 +1,42 @@
+.container {
+    background-image: url("../hinh/co-vietnam.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.23rem;
+}
+
+.header {
+    text-align: left;
+    color: white;
+    background-color: #FE0000;
+    padding: 5px 8px;
+}
+
+.content__image--first {
+    float: left;
+    width: 23.3%;
+    margin: 0 10px 8px 0;
+}
+
+.content__paragraph--first::first-letter {
+    float: left;
+    font-size: 4.6em;
+    color: #FBFB01;
+    text-shadow: 2px 2px 4px #FE0000;                                   
+    margin-right: 15px;
+    margin-top: 5px;
+    line-height: 0.9em;
+}
+
+.content__image--second {
+    float: right;
+    width: 30%;
+    margin: 5px 0 0 10px;
+}
+
+.content__link {
+    display: flex;
+    justify-content: flex-end;
+}

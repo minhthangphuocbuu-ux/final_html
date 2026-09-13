@@ -1,0 +1,28 @@
+.container {
+    background-image: url("../hinh/co-vietnam.png"), url("../hinh/co-vietnam.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 40vh, center 95vh;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.12rem;
+}
+.header {
+    text-align: center;
+    color: #FE0102;
+}
+
+.content__image--first {
+    float: left;
+    width: 16.5%;
+    margin: 0 100px;
+}
+
+.content__image--second {
+    float: right;
+    width: 16.5%;
+}
+
+.content__link {
+    display: flex;
+    justify-content: flex-end;
+}
